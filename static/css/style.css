@@ -1,0 +1,20 @@
+body,
+html {
+  height: 100%;
+}
+
+.label-form {
+  
+  margin: auto; /* Center the form horizontally */
+  padding: 20px;
+  background-color: #ffffff; /* White background for form */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.custom-input {
+  border-radius: 3px; /* Less rounded edges */
+  padding: 0.25rem 0.5rem; /* Less padding */
+  height: 1.5rem; /* Decreased height */
+  font-size: 0.875rem; /* Adjust font size if needed */
+}
