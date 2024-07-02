@@ -4,7 +4,6 @@ html {
 }
 
 .label-form {
-  
   margin: auto; /* Center the form horizontally */
   padding: 20px;
   background-color: #ffffff; /* White background for form */
@@ -17,4 +16,34 @@ html {
   padding: 0.25rem 0.5rem; /* Less padding */
   height: 1.5rem; /* Decreased height */
   font-size: 0.875rem; /* Adjust font size if needed */
+}
+
+.custom-select {
+  border-radius: 3px; /* Less rounded edges */
+  padding: 0.25rem 0.5rem; /* Less padding */
+  height: 1.5rem; /* Decreased height */
+  font-size: 0.65rem; /* Adjust font size if needed */
+  
+}
+
+.remove-aliquot-btn {
+  border-radius: 40%;
+  height: 1.2rem;
+  width: 1rem;
+  display: inline-flex; /* Use flex to center text if needed */
+  align-items: center; /* Vertically center the text */
+  justify-content: center; /* Horizontally center the text */
+  background-color: gainsboro;
+  border-color: gainsboro;
+}
+
+.add-aliquot-btn {
+  border-radius: 40%;
+  height: 1.2rem;
+  width: 1rem;
+  display: inline-flex; /* Use flex to center text if needed */
+  align-items: center; /* Vertically center the text */
+  justify-content: center; /* Horizontally center the text */
+  background-color: blue;
+  border-color: blue;
 }

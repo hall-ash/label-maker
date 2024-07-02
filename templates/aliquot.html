@@ -11,7 +11,7 @@
           </div>
           <div class="col">
 
-              <select class="form-select custom-input" name="volume_unit[]">
+              <select class="form-select custom-select" name="volume_unit[]">
                   <option value="mL">mL</option>
                   <option value="uL">μL</option>
                   <option value="L">L</option>
@@ -23,7 +23,7 @@
           </div>
           <div class="col">
           
-              <select class="form-select custom-input" name="concentration_unit">
+              <select class="form-select custom-select" name="concentration_unit">
                   <option value="mg/mL">mg/mL</option>
                   <option value="ug/mL">μg/mL</option>
                   <option value="g/mL">g/mL</option>
@@ -34,14 +34,16 @@
           <div class="col">
             <input type="text" placeholder="Number of aliquots" class="form-control custom-input" name="number">
         </div>
-        <div class="col d-flex justify-content-end ">
-          <button type="submit" class="btn btn-secondary">-</button>
+        <div class="col d-flex align-items-center justify-content-end">
+          <button type="submit" class="btn btn-secondary remove-aliquot-btn">-</button>
           
         </div>
       </div>
      
     </div>
-
+    <div class="col col-lg-1 d-flex align-items-center">
+      <button type="submit" class="btn btn-secondary add-aliquot-btn">+</button>
+    </div>
   </div>
 
 </div>
